@@ -5,9 +5,26 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 
+<header>
+  <h1>Analizador de texto</h1>
+</header>
 <body>
   <script src="index.js" type="module"></script>
+  <ul>
+      <li data-testid="word-count" class="contadores">Palabras:</li>
+      <li data-testid="character-count" class="contadores">Caracteres:</li>
+      <li data-testid="character-no-spaces-count" class="contadores">Caracteres sin espacios:</li>
+      <li data-testid="number-count" class="contadores">Números:</li>
+      <li data-testid="number-sum" class="contadores">Suma de números:</li>
+      <li data-testid="word-length-average" class="contadores">Longitud palabras:</li>
+  </ul>
+  <textarea name="user-input" value="user-input" cols="105" rows="10" placeholder="Ingresa el texto aquí..."></textarea>
+  <button id="reset-button">Limpiar contenido</button>
+  <footer>
+      <p>Desarrollado por: Daniela Posadas</p>
+  </footer>
 </body>
 </html>
