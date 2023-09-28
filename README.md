@@ -1,36 +1,18 @@
-# Analizador de texto
+<h1 text-align:center >Analizador de texto<h1>
 
 ## Índice
 
-* [1. Consideraciones generales](#1-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Funcionalidades](#4-funcionalidades)
-* [5. Boilerplate](#5-boilerplate)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
-* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
-* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
+* [Resumen](#Resumen)
+* [Introducción](#Introducción)
+* [Prototipado](#Prototipado)
+* [Funcionalidades del proyecto](Funcionalidades-del-proyecto)
+* [Criterios de aceptación mínimos](Criterios-de-aceptación-mínimos)
+* [Pruebas]
+* [Desarrolladores del proyecto](Desarrolladores-del-proyecto)
 
 ***
 
-## 1. Consideraciones generales
-
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
-
-## 2. Preámbulo
-
-![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
-
-_Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+## Resumen
 
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
@@ -38,88 +20,55 @@ natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
 Estas aplicaciones pueden proporcionar una variedad de métricas que brindan
 información básica sobre la longitud y la estructura del texto como por
 ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de
-oraciones y el conteo de párrafos. Otras métricas incluyen el análisis
-de sentimientos, que utiliza técnicas de NLP para determinar el tono
-general positivo, negativo o neutral del texto, y el análisis de
-legibilidad, que utiliza algoritmos para evaluar la complejidad y la
-legibilidad del texto.
+oraciones y el conteo de párrafos.
 
-En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a las usuarias a
-tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, las usuarias pueden
-obtener una comprensión más profunda de los textos.
+## Introducción
 
-## 3. Resumen del proyecto
+![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
-pueda analizar un texto en el navegador mostrando una serie de indicadores y
-métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
-enviadas como _input_ por ella. Lo harás utilizando HTML, CSS y JavaScript.
+_Foto del Analizador de texto [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
-## 4. Funcionalidades
+Este proyecto implementa tres lenguajes diferentes para darle estilo y funcionalidad a una aplicación web que analiza textos a través del navegador.
+
+El Analizador de texto es intuitivo y fácil de utilizar mostrando seis métricas que analizan y devuelven el valor ingresado en el cuadro de texto ubicado al centro. Cuenta con un botón debajo que permite limpiar el texto y las métricas facilitando el ingreso de texto nuevo.
+
+## Prototipado
+
+FOTO BOCETO
+
+El proyecto fue estructurado a través de un boceto burdo que establece una composición simple que facilita al usuario entender la funcionalidad del mismo.
+
+Se crearon dos bocetos más que comparten similitudes entre ellos y que permitieron obtener el resultado final considerado como el más viable para desarrollar una aplicación clara para cualquier usuario que la usase.
+
+FOTO ESTRUCTURA Y COLORES
+
+La gama cromática es bastante simple, siendo conformada por tres tonos pasando de magenta a gris y finalizando en el blanco, generando un buen contraste entre una tipografía blanca y negra para el título y los botones respectivamente.
+
+## Funcionalidades
 
 El listado de funcionalidades es el siguiente:
 
-1. La aplicación debe permitir a la usuaria ingresar un texto escribiéndolo
-en un cuadro de texto.
+1. La aplicación permite al usuario ingresar un texto escribiéndolo o mediante copy-paste en un cuadro de texto.
 
-2. La aplicación debe calcular las siguientes métricas y actualizar el
-resultado en tiempo real a medida que la usuaria escribe su texto:
+2. La aplicación calcula las siguientes métricas y actualiza el
+resultado en tiempo real a medida que la usuaria escribe o inserta un texto:
 
-    - **Recuento de palabras**: la aplicación debe poder contar el número de
-    palabras en el texto de entrada y mostrar este recuento a la usuaria
-    - **Recuento de caracteres**: la aplicación debe poder contar el número de
-    caracteres en el texto de entrada, incluidos espacios y signos de
-    puntuación, y mostrar este recuento a la usuaria.
+    - **Recuento de palabras**: La aplicación cuenta el número de palabras en el texto y muestra este recuento al usuario plasmando el resultado en la métrica correspondiente.
+    - **Recuento de caracteres**: La aplicación cuenta el número de caracteres en el texto, incluidos espacios y signos de puntuación, y muestra este recuento en la métrica correspondiente.
     - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
-    la aplicación debe poder contar el número de caracteres en el texto de
-    entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
-    a la usuaria.
-    - **Recuento de números**: la aplicación debe contar cúantos números hay en
-    el texto de entrada y mostrar este recuento a la usuaria.
-    - **Suma total de números**: la aplicación debe sumar todos los números que
-    hay en el texto de entrada y mostrar el resultado a la usuaria.
-    - **Longitud media de las palabras**: la aplicación debe calcular la
-    longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
+    La aplicación cuenta el número de caracteres en el texto ingresado, excluyendo espacios y signos de puntuación, y mostrando este recuento al usuario a través de la métrica.
+    - **Recuento de números**: La aplicación cuenta cúantos números hay
+    dentro del texto y muestra este recuento al usuario.
+    - **Suma total de números**: La aplicación suma todos los números existentes dentro del texto y muestra el resultado final al usuario a través de la métrica.
+    - **Longitud media de las palabras**: La aplicación calcula la longitud media de las palabras en el texto y la muestra al usuario a través de la métrica.
 
-3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
-clic en un botón.
+3. La aplicación permite limpiar el contenido de la caja de texto y las métricas haciendo clic en el botón que se encuentra en la parte inferior.
 
 ![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
-## 5. Boilerplate
 
-La lógica del proyecto debe estar implementada completamente en JavaScript. En
-este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
-puro también conocido como Vanilla JavaScript.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
-es la estructura básica de un proyecto que sirve como un punto de partida con
-archivos y configuración inicial de dependencias y tests.
-
-El boilerplate que les damos contiene esta estructura:
-
-```text
-./
-├── .babelrc
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── analyzer.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── .eslintrc
-    └── analyzer.spec.js
-```
-
-### Descripción de scripts / archivos
+## Criterior mínimos de aceptación 
 
 * `README.md`: debes modificarlo para explicar la información necesaria para el
   uso de tu aplicación
@@ -758,4 +707,4 @@ Puedes habilitar las pruebas unitarias y en _end to end_ de estos casos
 en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 [read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
 También tendrás que ajustar las pruebas ya existentes de las
-funcionalidades requeridas.
+funcionalidades requeridas
