@@ -76,17 +76,17 @@ El proyecto debió cumplir e implementar ciertos criterios de aceptación mínim
 * **Uso de HTML semántico**
 
   - La aplicación tiene un encabezado conformado por un
-  [`<header>`] padre de un [`<h1>`] con texto `Analizador de texto`. Estos elementos no tienen atributos id, name o class.
+  `<header>` padre de un `<h1>` con texto `Analizador de texto`. Estos elementos no tienen atributos id, name o class.
 
-  - La aplicación usa un [`<textarea>`] con un atributo `name` para permitir al usuario ingresar un texto. Este elemento no tiene atributos id o class.
+  - La aplicación usa un `<textarea>` con un atributo `name` para permitir al usuario ingresar un texto. Este elemento no tiene atributos id o class.
 
-  - La aplicación usa un [`<ul>`] con 6 hijos [`<li>`], uno para cada métrica. Estos
+  - La aplicación usa un `<ul>` con 6 hijos `<li>`, uno para cada métrica. Estos
   elementos no tienen atributos id, name o hijos.
 
-  - Cada uno de los [`<li>`] para mostrar _las métricas_ tiene un atributo data-testid.
+  - Cada uno de los `<li>` para mostrar _las métricas_ tiene un atributo data-testid.
 
   - La aplicación tiene un pie de página conformado por un
-  [`<footer>`] que es padre de un [`<p>`] que tiene como texto el nombre del desarrollador web. Ninguno de estos elementos tienen atributos id, name o class.
+  `<footer>` que es padre de un `<p>` que tiene como texto el nombre del desarrollador web. Ninguno de estos elementos tienen atributos id, name o class.
 
   - La aplicación usa un `<button>` con el atributo `id` para permitir al usuario,
   mediante un clic, limpiar el contenido de la caja de texto y las métricas.
@@ -95,15 +95,15 @@ El proyecto debió cumplir e implementar ciertos criterios de aceptación mínim
 
 * **Uso de selectores de CSS**
 
-  - La aplicación usa [`selectores CSS de tipo`] para darle estilo al `<header>` y al `<footer>`.
+  - La aplicación usa `selectores CSS de tipo` para darle estilo al `<header>` y al `<footer>`.
 
-  - La aplicación usa [`selectores CSS de class`] para darle estilo a los
-  [`<li>`] descritos anteriormente.
+  - La aplicación usa `selectores CSS de class` para darle estilo a los
+  `<li>` descritos anteriormente.
  
-  - La aplicación usa [`selectores de atributo`] para darle estilo al [`<textarea>`].
+  - La aplicación usa `selectores de atributo` para darle estilo al `<textarea>`.
 
-  - La aplicación usa [`selectores CSS de ID`] para darle estilo al
-  [`<button>`].
+  - La aplicación usa `selectores CSS de ID` para darle estilo al
+  `<button>`.
 
 * **Modelo de caja (box model)**
 
@@ -113,9 +113,9 @@ El proyecto debió cumplir e implementar ciertos criterios de aceptación mínim
 
 * **Uso de selectores del DOM**
 
-  - La aplicación usa el [`selector del DOM querySelector`].
+  - La aplicación usa el `selector del DOM querySelector`.
 
-  - La aplicación usa el [`selector del DOM getElementById`].
+  - La aplicación usa el `selector del DOM getElementById`.
 
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
