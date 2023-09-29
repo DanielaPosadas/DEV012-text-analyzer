@@ -65,9 +65,9 @@ El listado de funcionalidades es el siguiente:
 
 3. La aplicación permite limpiar el contenido de la caja de texto y las métricas haciendo clic en el botón que se encuentra en la parte inferior.
 
-![Text analyzer demo](https://github.com/DanielaPosadas/DEV012-text-analyzer/blob/main/FuncionalidadesAnalizador.gif "Text analyzer demo")
+![Text analyzer demo](https://github.com/DanielaPosadas/DEV012-text-analyzer/blob/main/FuncionalidadesAnalizador.gif)
 
-## Criterior de aceptación mínimos
+## Criterios de aceptación mínimos
 
 El proyecto debió cumplir e implementar ciertos criterios de aceptación mínimos, los cuales se enlistan a continuación:
 
