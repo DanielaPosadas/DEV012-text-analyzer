@@ -12,7 +12,7 @@
 
 ## Resumen
 
-Un analizador de texto es una aplicación para extraer información útil de un
+Un analizador de texto es una aplicación para extraer información de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
 natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
 Estas aplicaciones pueden proporcionar una variedad de métricas que brindan
@@ -46,13 +46,13 @@ _Maquetación de aplicación web con paleta de color_
 
 Se tuvieron en cuenta las reglas básica del diseño visual para diseñar una UI (interfáz gráfica) agradable. La gama cromática es bastante simple, siendo conformada por tres tonos pasando de magenta a gris y finalizando en el blanco, generando un buen contraste entre una tipografía blanca y negra para el título y los botones respectivamente.
 
-## Funcionalidades
+## Funcionalidades del proyecto
 
 El listado de funcionalidades es el siguiente:
 
 1. La aplicación permite al usuario ingresar un texto escribiéndolo o mediante copy-paste en un cuadro de texto.
 
-2. La aplicación calcula las siguientes métricas y actualiza el resultado en tiempo real a medida que el usuaria escribe o inserta un texto:
+2. La aplicación calcula las siguientes métricas y actualiza el resultado en tiempo real a medida que el usuario escribe o inserta un texto:
 
     - **Recuento de palabras**: La aplicación cuenta el número de palabras en el texto y muestra este recuento al usuario plasmando el resultado en la métrica correspondiente.
     - **Recuento de caracteres**: La aplicación cuenta el número de caracteres en el texto, incluidos espacios y signos de puntuación, y muestra este recuento en la métrica correspondiente.
@@ -65,12 +65,11 @@ El listado de funcionalidades es el siguiente:
 
 3. La aplicación permite limpiar el contenido de la caja de texto y las métricas haciendo clic en el botón que se encuentra en la parte inferior.
 
-GIF DEL ANALIZADOR DE TEXTO
 ![Text analyzer demo](https://github.com/DanielaPosadas/DEV012-text-analyzer/blob/main/FuncionalidadesAnalizador.gif "Text analyzer demo")
 
-## Criterior mínimos de aceptación
+## Criterior de aceptación mínimos
 
-El proyecto debió cumplir e implementar ciertos criterios de aceptación mínimos los cuales se enlistan a continuación:
+El proyecto debió cumplir e implementar ciertos criterios de aceptación mínimos, los cuales se enlistan a continuación:
 
 ### HTML
 
@@ -163,7 +162,7 @@ El proyecto debió cumplir e implementar ciertos criterios de aceptación mínim
       * Suma total de los números dentro del texto.
       * Longitud media de las palabras dentro del texto.
 
-## Pruebas**
+## Pruebas
 
 El proyecto debió pasar por diversas pruebas unitarias para validar que todos los requisitos mínimos de aceptación fuesen cumplidos.
 
