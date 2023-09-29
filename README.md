@@ -1,4 +1,4 @@
-<h1 text-align:center >Analizador de texto<h1>
+<h1 text-align:center>Analizador de texto<h1>
 
 ## Índice
 
