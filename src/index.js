@@ -10,13 +10,13 @@ const sumaN= document.getElementsByClassName("contadores")[4];
 const longitud= document.getElementsByClassName("contadores")[5];
 const texto = document.querySelector("textarea");
 
-texto.addEventListener("input" , metricas)
+texto.addEventListener("input" , metricas);
 function metricas(){
   const textoA = texto.value
 
   //Contabilizar palabras
   const Cpalabras = analyzer.getWordCount(textoA);
-  palabras.innerHTML = "Palabras: " + Cpalabras;
+  palabras.textContent = "Palabras: " + Cpalabras;
 
   //Contabilizar caracteres
   const Ccaracteres = analyzer.getCharacterCount(textoA);
@@ -28,7 +28,7 @@ function metricas(){
 
   //Contabilizar números
   const Cnumeros = analyzer.getNumberCount(textoA);
-  numeros.innerHTML = "Numeros: " + Cnumeros;
+  numeros.innerHTML = "Números: " + Cnumeros;
     
   //Sumar números
   const Snumeros = analyzer.getNumberSum(textoA);
@@ -41,12 +41,12 @@ function metricas(){
 
 //Botón de limpiar contenido
 const boton = document.getElementById("reset-button");
-boton.addEventListener("click",function (){
+boton.addEventListener("click",function(){
   document.querySelector("textarea").value= "";
   palabras.innerHTML = "Palabras: 0"
   caracteres.innerHTML = "Caracteres: 0"
   caracteresSE.innerHTML = "Caracteres sin espacios: 0";
-  numeros.innerHTML = "Numeros: 0";
+  numeros.innerHTML = "Números: 0";
   sumaN.innerHTML = "Suma de números: 0";
-  longitud.innerHTML = "Longitud palabras: 0.0";
+  longitud.innerHTML = "Longitud palabras: 0.00";
 })
